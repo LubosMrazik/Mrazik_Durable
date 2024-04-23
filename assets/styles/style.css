@@ -1,0 +1,511 @@
+@font-face {
+    font-family: Roboto, 'sans-serif';
+    src: url('../fonts/Roboto-Black.ttf');
+    font-weight: 600;
+}
+* {
+    font-family: "Roboto", 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+.bg-img {
+    width: 100%;
+    max-height: 100%;
+    position: absolute;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+
+}
+.logo-text {
+    margin: 10px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+}
+.right-header {
+    width: 30%;
+    position: relative;
+}
+.call-us {
+    width: 120px;
+    height: 50px;
+    font-size: 26px;
+    border-radius: 10px;
+    background-color: #5200F5;
+    color: white;
+    border-color: blue;
+    position: relative;
+    z-index: 10;
+}
+.call-us:hover {
+    transition: 400ms;
+    color: #5200F5;
+    background-color: white;
+}
+main {
+    background-color: #F5F4F6;
+}
+html {
+    background-color: #F5F4F6;
+}
+.main-page {
+    padding-top: 380px;
+    padding-left: 210px;
+    padding-bottom: 80px;
+    margin-right: 1000px;
+}
+.main-heading {
+    font-size: 75px;
+}
+.main-text {
+    font-size: 29px;
+}
+.secondary-heading {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 46px;
+    margin-left: 200px;
+}
+.service-heading {
+    font-size: 30px;
+    margin: 3% 0;
+}
+.ride-now {
+    width: 120px;
+    height: 50px;
+    font-size: 24px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    position: relative;
+    z-index: 10;
+}
+.ride-now:hover {
+    color: #5200F5;
+    background-color: lightsteelblue;
+    transition: 400ms;
+}
+.pictures-box {
+    width: 100%;
+    padding-top: 10px;
+    background-color: black;
+    z-index: 10;
+    position: relative;
+
+}
+.picture {
+    width: 100%;
+    margin: -2px;
+}
+.picture img {
+    width: 650px;
+    height: 500px;
+}
+.box1 {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.box2 {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.intermezzo {
+    margin: 10%;
+    padding-right: 24%;
+    margin-bottom: 8%;
+}
+#long_img {
+    width: 100%;
+    height: 820px;
+}
+.split-page {
+    display: flex;
+    width: 100%;
+}
+.left-text {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 8%;
+    margin-top: 15%;
+}
+.view-more {
+    width: 130px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    color: grey;
+    background-color: #F5F4F6;
+}
+.view-more:hover {
+    color: #5200F5;
+    background-color: lightskyblue;
+    transition: 400ms;
+}
+.right-image {
+    width: 50%;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+.right-image img {
+    width: 850px;
+    height: 1000px;
+}
+.my_hell {
+    background-color: #E0DDE4;
+}
+.my_hell .fa {
+    font-size: 100px;
+}
+#Taxi_service {
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+.services {
+    width: 100%;
+    margin-left: 250px;
+}
+.service {
+
+}
+#service2, #service4 {
+    padding-left: 240px;
+}
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 80px;
+}
+.box4 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 80px;
+}
+.about {
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.closing {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 90px;
+}
+.book-now {
+    width: 120px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #F5F4F6;
+    font-weight: lighter;
+}
+.book-now:hover {
+    background-color: lightskyblue;
+    color: blue;
+    transition: 400ms;
+}
+p {
+    font-size: 20px;
+}
+.bye_bye {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.call-us-mini {
+    width: 120px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: #5200F5;
+    color: white;
+    border-color: #5200F5;
+}
+.call-us-mini:hover {
+    transition: 400ms;
+    color: #5200F5;
+    background-color: white;
+}
+.footer-left {
+    display: flex;
+    width: 40%;
+    font-size: 30px;
+}
+.footer-left i {
+    font-size: 75px;
+}
+.footer-left h2 {
+    padding-left: 20px;
+}
+.footer-right {
+    width: 40%;
+}
+
+.main-nav {
+    width: 100%;
+    display: flex;
+    height: 40px;
+}
+.main-nav li:last-child {
+    margin-right: auto;
+}
+.main-nav a {
+    margin: 10px;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.main-menu {
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    padding-left: 100px;
+}
+
+.logo {
+    width: 20%;
+    font-size: 44px;
+}
+
+.button-menu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+.btn {
+    font-size: 36px;
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+}
+.btn:hover {
+    background-color: lightskyblue;
+    transition: 400ms;
+}
+.DOM {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.idk {
+    display: flex;
+    justify-content: center;
+}
+.gallery-button {
+    margin: 10%;
+    width: 30%;
+}
+.gallery-foto {
+    width: 30%;
+    margin-right: 500px;
+}
+#inv {
+    display: none;
+}
+#inv1 {
+    display: none;
+}
+#inv2 {
+    display: none;
+}
+
+
+
+.gallery img {
+    max-width: 275px;
+    height: 183px;
+    margin: 0 4%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .main-menu {
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        padding-left: 60px;
+    }
+    .button-menu {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        margin-right: 80px;
+    }
+    .logo-text {
+        margin: 10px;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .main-page {
+        padding-top: 250px;
+        padding-left: 50px;
+        padding-bottom: 80px;
+        margin-right: 50px;
+    }
+    .ride-now {
+        width: 95%;
+        height: 70px;
+        font-size: 24px;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    .pictures-box {
+        display: block;
+        width: 100%;
+        z-index: 10;
+        position: relative;
+    }
+    .picture {
+        width: 100%;
+    }
+    .picture img {
+        width: 100%;
+        height: 500px;
+        margin-bottom: -2px;
+    }
+    .box1 {
+        display: block;
+        width: 100%;
+    }
+    .box2 {
+        display: block;
+        width: 100%;
+    }
+    .intermezzo {
+        margin: 12%;
+        padding-right: 2%;
+    }
+    .intermezzo h2 {
+        font-size: 36px;
+    }
+    .split-page {
+        display: block;
+        width: 100%;
+    }
+    .left-text {
+        width: 100%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 10%;
+    }
+    .view-more {
+        width: 90%;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    .right-image {
+        width: 100%;
+        margin-top: 12%;
+    }
+    .right-image img {
+        width: 100%;
+        height: 450px;
+    }
+    #Taxi_service {
+        padding-top: 6%;
+        padding-bottom: 2%;
+        margin-left: 50px;
+    }
+    .services {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .service {
+
+    }
+    #service2, #service4 {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .box3 {
+        display: block;
+        justify-content: space-between;
+        width: 50%;
+        margin-bottom: 80px;
+    }
+    .box4 {
+        display: block;
+        justify-content: space-between;
+        width: 50%;
+        margin-bottom: 80px;
+    }
+    .about {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+    }
+    .closing {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 90px;
+    }
+    .book-now {
+        width: 60%;
+        height: 50px;
+        font-size: 24px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    .bye_bye {
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        padding-left: 0;
+        margin-left: 55px;
+        margin-bottom: 100px;
+    }
+    .call-us-mini {
+        width: 180px;
+        height: 50px;
+        font-size: 24px;
+        border-radius: 10px;
+    }
+    .footer-left {
+        display: flex;
+        width: 40%;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .footer-left i {
+        font-size: 75px;
+    }
+    .footer-right {
+        width: 40%;
+    }
+    .gallery img {
+        max-width: 275px;
+        height: 183px;
+        margin: 0 4%;
+    }
+    .btn {
+        font-size: 36px;
+        width: 60px;
+        height: 80px;
+        border-radius: 16px;
+    }
+    .gallery-foto img{
+        width: 450px;
+        height: auto;
+    }
+    .gallery-foto {
+        width: 30%;
+        margin-right: 220px;
+    }
+}
